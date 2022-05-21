@@ -7,6 +7,7 @@ import FriendList from './FriendList/FriendList';
 import friends from './FriendList/friends';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions';
+
 export const App = () => {
   return (
     <Fragment>

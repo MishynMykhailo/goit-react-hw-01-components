@@ -15,6 +15,7 @@ export default function FriendList({ friends }) {
     </ul>
   );
 }
+
 FriendList.propTypes = {
   id: PropTypes.string,
   isOnline: PropTypes.bool,

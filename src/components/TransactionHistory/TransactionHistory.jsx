@@ -26,8 +26,6 @@ export default function TransactionHistory({ items }) {
   );
 }
 
-// Тут хз как сделать
-
 TransactionHistory.propTypes = {
   id: PropTypes.string,
   type: PropTypes.string,
