@@ -12,6 +12,7 @@
   text-align: center;
   font-size: 700;
   color: rgb(130, 144, 158);
+  text-transform: uppercase;
 }
 .stat {
   list-style: none;

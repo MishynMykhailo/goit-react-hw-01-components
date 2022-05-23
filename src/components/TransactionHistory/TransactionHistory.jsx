@@ -6,9 +6,9 @@ export default function TransactionHistory({ items }) {
     <table className={s.table}>
       <thead className={s.thead}>
         <tr>
-          <th className={s.type}>{'Type'.toUpperCase()}</th>
-          <th className={s.amount}>{'Amount'.toUpperCase()}</th>
-          <th className={s.currency}>{'Currency'.toUpperCase()}</th>
+          <th className={s.type}>{'Type'}</th>
+          <th className={s.amount}>{'Amount'}</th>
+          <th className={s.currency}>{'Currency'}</th>
         </tr>
       </thead>
       <tbody>
