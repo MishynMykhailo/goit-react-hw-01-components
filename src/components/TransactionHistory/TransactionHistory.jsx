@@ -27,11 +27,11 @@ export default function TransactionHistory({ items }) {
 }
 
 TransactionHistory.propTypes = {
-  items: PropTypes.objectOf(
+  items: PropTypes.arrayOf(
     PropTypes.exact({
       amount: PropTypes.string.isRequired,
-      currency: PropTypes.number.isRequired,
-      id: PropTypes.number.isRequired,
+      currency: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired,
     }).isRequired
   ),

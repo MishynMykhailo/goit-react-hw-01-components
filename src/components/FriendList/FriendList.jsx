@@ -20,7 +20,6 @@ export default function FriendList({ friends }) {
 }
 
 FriendList.propTypes = {
-  friends: PropTypes.array,
   friends: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number,
@@ -28,5 +27,5 @@ FriendList.propTypes = {
       avatar: PropTypes.string,
       name: PropTypes.string,
     })
-  ),
+  ).isRequired,
 };
