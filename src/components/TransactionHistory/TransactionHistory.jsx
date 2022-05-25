@@ -27,8 +27,12 @@ export default function TransactionHistory({ items }) {
 }
 
 TransactionHistory.propTypes = {
-  id: PropTypes.string,
-  type: PropTypes.string,
-  amount: PropTypes.number,
-  currency: PropTypes.string,
+  items: PropTypes.objectOf(
+    PropTypes.exact({
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.number.isRequired,
+      id: PropTypes.number.isRequired,
+      type: PropTypes.string.isRequired,
+    }).isRequired
+  ),
 };
